@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="test.css">
+  <script language="javascript" type="text/javascript" src="test.js"></script>
+</head>
+<body>
+<div class="container">
+  <form action="actual.html" onsubmit="tosubmit();" method="get">
+    <div class="row">
+      <h2 class="centre">Form "K"</h2>
+      <h2 class="centre">Rule 4(3)</h2>
+      <h2 class="centre"> Application for grant of Transit Forest Pass:</h2>
+    </div>
+    <div class="row">
+      <div class="col-40">
+        <label for="fname">A.) Name of Applicant </label>
+      </div>
+      <div class="col-60">
+        <input type="text" id="fname" name="fname" placeholder="Enter the name of Applicant">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-40">
+        <label for="place">B.) Division or Place where specific vanopaj/timber purchased </label>
+      </div>
+      <div class="col-60">
+        <input type="text" id="place" name="place" placeholder="Enter the place name">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-40">
+        <label for="method">C.) Purchased date or method </label>
+      </div>
+      <div class="col-60">
+        <input type="text" id="method" name="method" placeholder="Enter the purchased date or method">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-40">
+        <label for="description">D.) Description of purchased Vanopaj/Timber </label>
+      </div>
+      <div class="col-60">
+        <input type="text" id="description" name="description" placeholder="Description of purchased Vanopaj/Timber">
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-33">
+        <label for="detail">E.) Details of Vanopaj/Timber </label>
+        <input type="text" id="detail" name="detail" placeholder="Enter the purchased date or method">
+      </div>
+      <div class="col-33">
+        <label for="bags"> Number of bags </label>
+        <input type="text" id="bags" name="bags" placeholder="Enter the number of bags">
+      </div>
+      <div class="col-33">
+        <label for="weight"> Weight in tonnes </label>
+        <input type="text" id="weight" name="weight" placeholder="Enter the weight">
+      </div>
+      <!-- <a href="#" id="add" onclick="addfield()">Add Item</a> -->
+      <input type="button" value="Add Item" onclick="addfield()">
+    </div>
+
+
+    <div class="row">
+      <div class="col-40">
+        <label for="period">F.) Period for which forest pass is valid </label>
+      </div>
+      <div class="col-60">
+        <input type="text" id="period" name="period" placeholder="Enter Validation days of the forest pass">
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-40">
+        <label for="destination">G.) Destination of Vanopaj upto which forest product is to be sent </label>
+      </div>
+      <div class="col-60">
+        <input type="text" id="destination" name="destination" placeholder="Enter Destination">
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-40">
+        <label for="method_transportation">H.) Method of Transportation </label>
+      </div>
+      <div class="col-60">
+        <input type="text" id="method_transportation" name="method_transportation" placeholder="Enter Method of transportation">
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-40">
+        <label for="route">I.) Route of transportation through which Forest Vanopaj/Timber is transported </label>
+      </div>
+      <div class="col-60">
+        <input type="text" id="route" name="route" placeholder="Enter route of transportation">
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-40">
+        <label for="trading">J.) Place where transported forest-product/Timber is used for trading/manufacturing </label>
+      </div>
+      <div class="col-60">
+        <input type="text" id="trading" name="trading" placeholder="Enter trading place name">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-40">
+        <label for="gst">K.) Enter GST Number</label>
+      </div>
+      <div class="col-60">
+        <input type="text" id="gst" name="gst" placeholder="Enter Your GST Number">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-40">
+        <label for="truck">L.) Enter Truck Number</label>
+      </div>
+      <div class="col-60">
+        <input type="text" id="truck" name="truck" placeholder="Enter Your Truck Number">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-40">
+        <label for="location">Location</label>
+      </div>
+      <div class="col-60">
+        <input type="text" id="location" name="location" placeholder="Enter Location">
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-40">
+        <label for="date">Date</label>
+        <input type="date" id="date" name="date">
+      </div>
+      <h3 class="col-60">
+        Signature of Applicant
+      </h3>
+    </div>
+    <br>
+  <!-- <form action="actual.html" onsubmit="tosubmit();" method="get"> -->
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+
+</body>
+</html>

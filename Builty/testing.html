@@ -1,0 +1,203 @@
+
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" type="text/css" href="style_test.css">
+      <script language="javascript" type="text/javascript" src="test.js"></script>
+   </head>
+   <body>
+      <div class="container">
+         <form action="actual.html" onsubmit="tosubmit();" method="get">
+            <div class="row">
+               <h3 class="col-25">PAN NO. :-123456789</h3>
+               <h3 class="col-75">
+                  Phone Number :- 07722-233354 , 07722-237249
+               </h3>
+               <h3 class="col-25">
+               <h3>
+               <h3 class="col-75">
+                  Mobile Number :- 94252-37249 , 94242-07249
+               </h3>
+            </div>
+            <h1 class="centre">VALLABH LOGISTIC</h1>
+            <div class="row">
+               <h4 class="centre"> PravinChandra Shantilal & Co. , Sihawa  Chawk , Dhamtari , Chhattisgarh </h4>
+            </div>
+            <div class = "row">
+               <div class="col-33">
+                  <label for="consignor_name">CONSIGNOR</label>
+                  <input type="text" id="consignor_name" name="consignor" placeholder="Your Consignor Name">
+
+                  <input type="text" id="address1" name="address1" placeholder="Address Line 1 ex:-Street Add , P.O. Box">
+                  <input type="text" id="address2" name="address2" placeholder="Address Line 2 ex:- Apartment , floor , building">
+                  <input type="text" id="city" name="city" placeholder="City/Town">
+                  <input type="text" id="state" name="state" placeholder="State / Province / Region">
+                  <input type="number" id="zip" name="zip" placeholder="Zip or Postal Code">
+                  <input type="text" id="country" name="country" placeholder="Enter the Country Name">
+
+                  <label for="gst">G.S.T</label>
+                  <input type="text" id="gst" name="gst" placeholder="Your GST Number">
+               </div>
+               <div class="col-33">
+                  <label for="owners_risk">At Owner's Risk </label>
+                  <!-- <input type="text" id="owners_risk" name="owners_risk" placeholder="Y"> -->
+                  <select id="owners_risk" name="owners_risk">
+                     <option value="Yes">Yes</option>
+                     <option value="No">No</option>
+                     <!-- <option value="usa">USA</option> -->
+                  </select>
+                  <label for="challan">Challan Number</label>
+                  <input type="text" id="challan" name="challan" placeholder="Your Challan Number">
+                  <label for="Invoice">Invoice Number</label>
+                  <input type="text" id="Invoice" name="Invoice" placeholder="Your Invoice Number">
+                  <label for="Insurance">Insurance Number</label>
+                  <input type="text" id="Insurance" name="Insurance" placeholder="Your Insurance Number">
+               </div>
+               <div class="col-33">
+                  <h3 class="centre">
+                     Caution
+                  </h3>
+                  <h4 class="centre">
+                     The consignment will not be detained , diverted , re-routed ,re-booked without consignee bank's written permission.
+                  </h4>
+                  <label for="Dates">Date</label>
+                  <input type="date" id="Dates" name="Dates">
+                  <br>
+                  <label for="LR">L.R. Number</label>
+                  <input type="text" id="LR" name="LR" placeholder="Your L.R. Number">
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-33">
+                  <label for="consignee_name">CONSIGNEE</label>
+                  <input type="text" id="consignee_name" name="consignee" placeholder="Your Consignee Name">
+
+                  <input type="text" id="address1_1" name="address1_1" placeholder="Address Line 1 ex:-Street Add , P.O. Box">
+                  <input type="text" id="address2_1" name="address2_1" placeholder="Address Line 2 ex:- Apartment , floor , building">
+                  <input type="text" id="city_1" name="city_1" placeholder="City/Town">
+                  <input type="text" id="state_1" name="state_1" placeholder="State / Province / Region">
+                  <input type="number" id="zip_1" name="zip_1" placeholder="Zip or Postal Code">
+                  <input type="text" id="country_1" name="country_1" placeholder="Enter the Country Name">
+
+                  <label for="GST_Consignee">G.S.T pay by Consignee</label>
+                  <input type="text" id="GST_Consignee" name="GST_Consignee" placeholder="Your GST_Consignee Number">
+               </div>
+               <div class="col-33">
+                  <p> The customer has stated that the :- </p>
+                  <label for="insurance_consignment">Insurance of Consignment </label>
+                  <select id="insurance_consignment" name="insurance_consignment">
+                     <option value="Yes">Yes</option>
+                     <option value="No">No</option>
+                  </select>
+                  <label for="Company">Company Name</label>
+                  <input type="text" id="Company" name="Company" placeholder="Your Company Name">
+                  <label for="policy">Policy Number</label>
+                  <input type="text" id="policy" name="policy" placeholder="Your Policy Number">
+                  <label for="amount">Amount</label>
+                  <input type="number" id="amount" name="amount" placeholder="Your Amount">
+                  <br>
+                  <label for="dates">Date</label>
+                  <input type="date" id="dates" name="Date">
+               </div>
+               <div class="col-33">
+                  <p>
+                  <h4>The consignment covered by this set of special Lorry recipt form shall be stored as the destination under the control of the transport operator and shall be delivered to or to the order of the consignee bank whose name is mention in the lorry recipt. It will under no circumstances be delivered to any one without the written authority from the consignee bank or its order endorsed on the consignee copy or on a separate letter of authority. </h4>
+                  </p>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-33">
+                  <label for="Truck">Truck Number</label>
+                  <input type="text" id="Truck" name="Truck" placeholder="Your Truck Number">
+               </div>
+               <div class="col-33">
+                  <label for="Owner">Owner Name</label>
+                  <input type="text" id="Owner" name="Owner" placeholder="Owner Name">
+               </div>
+               <div class="col-33">
+                  <label for="Chassis">Chassis Number</label>
+                  <input type="text" id="Chassis" name="Chassis" placeholder="Your Chassis Number">
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-25">
+                  <label for="DL_Number">Driving License Number</label>
+                  <input type="text" id="DL_Number" name="DL_Number" placeholder="Your Driving License Number">
+               </div>
+               <div class="col-25">
+                  <label for="Driver">Driver Name</label>
+                  <input type="text" id="Driver" name="Driver" placeholder="Your Driver Name">
+               </div>
+               <div class="col-25">
+                  <label for="RTO">RTO</label>
+                  <input type="text" id="RTO" name="RTO" placeholder="RTO">
+               </div>
+               <div class="col-25">
+                  <label for="Engine">Engine Number</label>
+                  <input type="text" id="Engine" name="Engine" placeholder="Engine Number">
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-50">
+                  <label for="origin">Origin</label>
+                  <input type="text" id="origin" name="origin" placeholder="Enter the Origin">
+               </div>
+               <div class="col-50">
+                  <label for="destination">Destination</label>
+                  <input type="text" id="destination" name="destination" placeholder="Enter the Destination">
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-30">
+                  <label for="description">Description of Goods</label>
+                  <input type="text" id="description" name="description" placeholder="Enter the Description of Goods">
+                  <h4 class="centre">No responsibility on taxes by transport company.You have to take this from Truck Owner or Driver. </h4>
+                  <h4 class="centre">No responsibility for Leakage , Breakage & Damage </h4>
+                  <!-- <h4>Please pay total freight by cash/Cheque/DD to the driver in out favour</h4> -->
+               </div>
+               <div class="col-20">
+                  <label for="weight">Weight(in tonnes)</label>
+                  <input type="text" id="weight" name="weight" placeholder="Enter the Weight(in tonnes)">
+                  <label for="delivery">Delivery</label>
+                  <input type="text" id="delivery" name="delivery" placeholder="Delivery Upto">
+               </div>
+               <div class="col-20">
+                  <label for="rate">rate/tonnes (in rs)</label>
+                  <input type="text" id="rate" name="rate" placeholder="Enter the rate/tonnes (in rs)">
+                  <label for="Value">Value</label>
+                  <input type="text" id="Value" name="Value" placeholder="Enter the value">
+               </div>
+               <div class="col-15">
+                  <!-- <label for="freight">freight(in rs)</label><br> -->
+
+                  <label for="st_charge">St. Charge(in rs)</label><br>
+                  <label for="opr_charge">Add. Opr Chg(in rs)</label><br>
+                  <label for="lu_charge">L/LU/Chg. (in rs)</label><br>
+                  <label for="risk_charge">Risk Charges(in rs)</label><br>
+                  <!-- <label for="total">Total(in rs)</label> -->
+               </div>
+               <div class="col-15">
+                  <!-- <input type="text" id="freight" name="freight" value="0"> -->
+                  <input type="text" id="st_charge" name="st_charge" value="0">
+                  <input type="text" id="opr_charge" name="opr_charge" value="0">
+                  <input type="text" id="lu_charge" name="lu_charge" value="0">
+                  <input type="text" id="risk_charge" name="risk_charge" value="0">
+                  <!-- <input type="text" id="total" name="total" value="0"> -->
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-50">
+                  <h4>Signature of Driver</h4>
+               </div>
+               <div class="col-30">
+                  <h4>For , VALLABH LOGISTIC</h4>
+               </div>
+            </div>
+            <div class="row">
+               <input type="submit" value="Submit">
+            </div>
+         </form>
+      </div>
+   </body>
+</html>
