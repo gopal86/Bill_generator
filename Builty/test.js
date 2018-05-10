@@ -48,7 +48,7 @@ function tosubmit() {
   var lu_charge = document.getElementById("lu_charge").value;
   var risk_charge = document.getElementById("risk_charge").value;
   // var total = document.getElementById("total").value;
-  var total = parseFloat(freight)+parseFloat(st_charge)+parseFloat(opr_charge)+parseFloat(lu_charge)+parseFloat(risk_charge);
+  var total = parseFloat(freight)-parseFloat(st_charge)+parseFloat(opr_charge)+parseFloat(lu_charge)+parseFloat(risk_charge);
   var array = [consignor_name,
 gst,
 owners_risk,
